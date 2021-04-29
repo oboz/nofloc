@@ -1,0 +1,44 @@
+{
+  "name": "nofloc",
+  "author": "Andrei Abozau <d3wayorg@gmail.com>",
+  "description": "Middleware to block Google FLoC tracking in Express or Koa",
+  "version": "1.0.0",
+  "keywords": [
+    "floc",
+    "chrome",
+    "google",
+    "privacy",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/oboz/nofloc/issues",
+    "email": "d3wayorg@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oboz/nofloc.git"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint \"**/*.js\"",
+    "lint:prettier": "prettier --check \"**/*.{js,ts,json,md}\"",
+    "format": "prettier --write \"**/*.{js,ts,json,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1"
+  }
+}
