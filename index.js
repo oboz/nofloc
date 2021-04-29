@@ -17,7 +17,7 @@ function noflocExpress() {
   }
 }
 
-async function noflocKoa() {
+function noflocKoa() {
   return async function(ctx, next) {
     let header = ctx.response.header[name] || rule;
     if (header.indexOf(rule) === -1) {
