@@ -1,5 +1,7 @@
 # nofloc
-Middleware to block Google FLoC tracking in Express or Koa
+Middleware to block Google FLoC tracking in Express and Koa
+
+Middleware add of modify permissions-policy header for blocking FLoC.
 
 ## Install
 
