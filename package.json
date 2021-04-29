@@ -2,7 +2,7 @@
   "name": "nofloc",
   "author": "Andrei Abozau <d3wayorg@gmail.com>",
   "description": "Middleware to block Google FLoC tracking in Express or Koa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "floc",
     "chrome",
